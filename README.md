@@ -80,7 +80,7 @@ Tears down all infrastructure defined in the configuration and cleans up state f
 terraform fmt
 ```
 **Description:**  
-The terraform fmt command automatically updates configurations in the current directory for readability and consistency. Format your configuration. Terraform will print out the names of the files it modified, if any. In this case, your configuration file was already formatted correctly, so Terraform won't return any file names.
+The **terraform fmt** command automatically updates configurations in the current directory for readability and consistency. Format your configuration. Terraform will print out the names of the files it modified, if any. In this case, your configuration file was already formatted correctly, so Terraform won't return any file names.
 
 ---
 
@@ -98,7 +98,7 @@ You can also make sure your configuration is syntactically valid and internally 
 terraform show
 ```
 **Description:**  
-Inspect the current state using terraform show. It also gathered the resource's metadata from the provider and wrote the metadata to the state file.
+Inspect the current state using **terraform show**. It also gathered the resource's metadata from the provider and wrote the metadata to the state file.
 
 ---
 
@@ -107,7 +107,7 @@ Inspect the current state using terraform show. It also gathered the resource's 
 terraform state list
 ```
 **Description:**  
-Terraform has a built-in command called terraform state for advanced state management. Use the list subcommand to list of the resources in your project's state.
+Terraform has a built-in command called **terraform state** for advanced state management. Use the **list** subcommand to list of the resources in your project's state.
 
 ---
 
