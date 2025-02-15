@@ -93,6 +93,24 @@ You can also make sure your configuration is syntactically valid and internally 
 
 ---
 
+### 8. **Inspect State**
+```bash
+terraform show
+```
+**Description:**  
+Inspect the current state using terraform show. It also gathered the resource's metadata from the provider and wrote the metadata to the state file.
+
+---
+
+### 9. **Manually Managing State**
+```bash
+terraform state list
+```
+**Description:**  
+Terraform has a built-in command called terraform state for advanced state management. Use the list subcommand to list of the resources in your project's state.
+
+---
+
 ## **🔄 Terraform Workflow Summary**
 | Step        | Command                | Purpose |
 |------------|----------------------|---------|
