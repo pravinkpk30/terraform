@@ -111,6 +111,15 @@ Terraform has a built-in command called **terraform state** for advanced state m
 
 ---
 
+### 10. **Query Output**
+```bash
+terraform output
+```
+**Description:**  
+Query the outputs with the **terraform output** command.
+
+---
+
 ## **🔄 Terraform Workflow Summary**
 | Step        | Command                | Purpose |
 |------------|----------------------|---------|
