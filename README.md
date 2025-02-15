@@ -75,6 +75,24 @@ Tears down all infrastructure defined in the configuration and cleans up state f
 
 ---
 
+### 6 **Format the configuration**
+```bash
+terraform fmt
+```
+**Description:**  
+The terraform fmt command automatically updates configurations in the current directory for readability and consistency. Format your configuration. Terraform will print out the names of the files it modified, if any. In this case, your configuration file was already formatted correctly, so Terraform won't return any file names.
+
+---
+
+### 6 **Validate the configuration**
+```bash
+terraform validate
+```
+**Description:**  
+You can also make sure your configuration is syntactically valid and internally consistent by using the terraform validate command. Validate your configuration. The example configuration provided above is valid, so Terraform will return a success message.
+
+---
+
 ## **🔄 Terraform Workflow Summary**
 | Step        | Command                | Purpose |
 |------------|----------------------|---------|
