@@ -75,7 +75,7 @@ Tears down all infrastructure defined in the configuration and cleans up state f
 
 ---
 
-### 6 **Format the configuration**
+### 6. **Format the configuration**
 ```bash
 terraform fmt
 ```
@@ -84,7 +84,7 @@ The terraform fmt command automatically updates configurations in the current di
 
 ---
 
-### 6 **Validate the configuration**
+### 7. **Validate the configuration**
 ```bash
 terraform validate
 ```
